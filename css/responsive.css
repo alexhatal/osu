@@ -819,7 +819,7 @@ and (max-device-width: 768px)  {
   margin-left: 20%;
 }
 .sec-item{
-  width: 40vw;
+  width: 70vw;
   margin-top: 5vh;
 }
 
@@ -844,14 +844,18 @@ and (max-device-width: 768px)  {
   font-size: 20px;
 }
 
-.footer-item{
-  width: 40vw;
+.footer img{
+  width: 40%;
 }
 
-.copy{
-  width: 80vw;
-  margin: 0 auto;
+.footer .footer-company{
+  margin-top:  30px;
 }
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
 
 .banner-two-container{
   height: 80vh;
@@ -867,8 +871,9 @@ and (max-device-width: 768px)  {
 
 #signature{
   width: 35vw;
-  margin-left: 20vw;
+  margin-left: 33vw;
   font-size: 16px;
+  margin-top: 30px;
 }
 
 .story-container{
@@ -891,7 +896,7 @@ and (max-device-width: 768px)  {
 .form-heading{
   font-size: 40px;
   width: 80vw;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .info-container{
@@ -904,11 +909,12 @@ and (max-device-width: 768px)  {
 }
 
 .info-item{
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .form-control{
   width: 50vw;
+  height: 50px;
 }
 
 .box-container{
@@ -932,19 +938,1549 @@ and (max-device-width: 768px)  {
 font-size: 24px;
 }
 
-.copy{
-font-size: 14px;
+.box{
+  top: 0;
 }
-
 .gdpr-text{
-margin: 0 50px 50px 50px;
-width: 80vw;
+  margin: 0 50px 50px 50px;
 }
 .gdpr-text h1{
+padding-top: 40px;
 width: 70vw;
+font-size: 35px;
 }
 
 .gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 769px) 
+and (max-device-width: 896px)  {
+  .inner_box{
+    width: 85%;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 20px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 35px;
+  }
+
+  .inner_box p  {
+    font-size: 25px;
+  }
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 60vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 60vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+.sec-item{
+  width: 70vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 20px;
+  margin-top: 1vh;
+}
+
+.sec-item h1{
+  font-size: 25px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 20px;
+}
+
+.footer .footer img,
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+  width: 40vw;
+}
+
+.footer .footer-left{
+  padding-left: 70px;;
+}
+
+.footer img{
+  width: 180%;
+}
+
+.footer .footer-company{
+  margin-top:  95px;
+}
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
+.copy{
+  padding-top: 25px;
+}
+
+.banner-two-container{
+  height: 80vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 80vw;
+}
+ .person-item{
+  width: 100vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 80vw;
+}
+
+.person-item img{
+  margin-left: 22vw;
+}
+
+
+.form-heading{
+  font-size: 40px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+.info-container{
+  margin-top: 20px;
+  width: 80vw;
+}
+
+.contact-form {
+  width: 80vw;
+}
+
+.info-item{
+  margin-top: 70px;
+}
+
+.form-control{
+  width: 50vw;
+  height: 50px;
+}
+
+.note h1{
+  font-size: 23px;
+}
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item, .inj-items{
+  width: 85vw;
+}
+
+.inj-items p{
+  padding: 40px;
+  width: 70vw;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+  top: 0;
+}
+.gdpr-text{
+  margin: 80px;
+}
+
+.gdpr-text h1{
+padding-top: 70px;
 width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 897px) 
+and (max-device-width: 1024px) { 
+  .inner_box{
+    width: 85%;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 20px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 35px;
+  }
+
+  .inner_box p  {
+    font-size: 25px;
+  }
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 60vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 60vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.story-container{
+  width: 100%;
+}
+
+.sec-item{
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 20px;
+  margin-top: 1vh;
+}
+
+.sec-item h1{
+  font-size: 25px;
+}
+
+.sec-item strong,
+.sec-item span{
+  font-size: 30px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 20px;
+}
+
+.footer .footer img,
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+  width: 40vw;
+  padding-left: 40px;
+}
+
+.footer .footer-left{
+  padding-left: 120px;;
+}
+
+.footer img{
+  width: 180%;
+}
+
+.footer .footer-company{
+  margin-top:  95px;
+}
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
+.copy{
+  padding-top: 25px;
+}
+
+.banner-two-container{
+  height: 80vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 100%;
+}
+ .person-item{
+  width: 35vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 35vw;
+}
+
+.person-item img{
+  margin-left: 8vw;
+}
+
+
+.form-heading{
+  font-size: 40px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+.info-container{
+  margin-top: 20px;
+  width: 80vw;
+}
+
+.contact-form {
+  width: 80vw;
+}
+
+.info-item{
+  margin-top: 70px;
+}
+
+.form-control{
+  width: 50vw;
+  height: 50px;
+}
+
+.note h1{
+  font-size: 23px;
+}
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item, .inj-items{
+  width: 85vw;
+}
+
+.inj-items p{
+  padding: 40px;
+  width: 70vw;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+  top: 0;
+}
+.gdpr-text{
+  margin: 80px;
+}
+
+.gdpr-text h1{
+padding-top: 70px;
+width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1025px) 
+and (max-device-width: 1366px) { 
+  .inner_box{
+    width: 85%;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 20px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 45px;
+  }
+
+  .inner_box p  {
+    font-size: 30px;
+  }
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 80vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 60vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.story-container{
+  width: 100%;
+}
+
+.sec-item{
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 20px;
+  margin-top: 1vh;
+}
+
+.sec-item h1{
+  font-size: 25px;
+}
+
+.sec-item strong,
+.sec-item span{
+  font-size: 30px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  padding: 30px 30px;
+}
+.footer .footer img{
+  width: 18%;
+}
+.footer .footer-left{
+  width: 15%;
+  margin-left: 80px;
+}
+
+.footer .footer-center{
+  width: 30%;
+}
+.footer .footer-right{
+  width: 20%;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.footer .footer-company{
+  margin-top:  70px;
+}
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
+.copy{
+  padding-top: 25px;
+}
+
+.banner-two-container{
+  height: 80vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 100%;
+}
+ .person-item{
+  width: 35vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 35vw;
+}
+
+.person-item img{
+  margin-left: 8vw;
+}
+
+
+.form-heading{
+  font-size: 40px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+
+.info-container{
+  width: 70vw;
+}
+
+.contact-form {
+  width: 70vw;
+}
+
+.info-item{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.form-control{
+  width: 40vw;
+  height: 50px;
+  
+}
+
+.note h1{
+  font-size: 23px;
+}
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item{
+  width: 40vw;
+  height: 65vh;
+  font-size: 25px;
+}
+
+.inj-items{
+  width: 70vw;
+  font-size: 25px;
+}
+
+.inj-item p, .inj-items p{
+  padding: 40px;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+  top: 0;
+}
+.gdpr-text{
+  margin: 100px;
+}
+
+.gdpr-text h1{
+padding-top: 70px;
+width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1367px) 
+and (max-device-width: 1800px) {
+  
+  
+  nav ul li,
+  nav ul ul li{
+    margin-right: 40px;
+  }
+  
+  nav ul li a,
+  nav ul ul li a {
+    font-size: 20px;
+  }
+  
+
+  .inner_box{
+    width: 80%;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 50px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 45px;
+  }
+
+  .inner_box p  {
+    font-size: 30px;
+  }
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 80vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 60vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.story-container{
+  width: 100%;
+}
+
+.sec-item{
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 20px;
+  margin-top: 1vh;
+}
+
+.sec-item h1{
+  font-size: 25px;
+}
+
+.sec-item strong,
+.sec-item span{
+  font-size: 30px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  padding: 30px 30px;
+}
+.footer .footer img{
+  width: 18%;
+}
+.footer .footer-left{
+  width: 15%;
+  margin-left: 80px;
+}
+
+.footer .footer-center{
+  width: 30%;
+}
+.footer .footer-right{
+  width: 20%;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.footer .footer-company{
+  margin-top:  70px;
+}
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
+.copy{
+  padding-top: 25px;
+}
+
+.banner-two-container{
+  height: 10vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 100%;
+}
+ .person-item{
+  width: 35vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 35vw;
+}
+
+.person-item img{
+  margin-left: 8vw;
+}
+
+
+.form-heading{
+  font-size: 40px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+
+.info-container{
+  width: 70vw;
+}
+
+.contact-form {
+  width: 70vw;
+}
+
+.info-item{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.form-control{
+  width: 40vw;
+  height: 50px;
+  
+}
+
+.note h1{
+  font-size: 30px;
+}
+
+.note p{
+  font-size: 25px;
+}
+
+.note-btn{
+  margin-top: 20px;
+}
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item{
+  width: 30vw;
+  height: 55vh;
+  font-size: 25px;
+}
+
+.inj-items{
+  width: 70vw;
+  font-size: 25px;
+}
+
+.inj-item p, .inj-items p{
+  padding: 40px;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+top: -10vh;
+height: 77vh;
+}
+.gdpr-text{
+  margin: 100px;
+}
+
+.gdpr-text h1{
+padding-top: 70px;
+width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1801px) 
+and (max-device-width: 2560px) { 
+
+  *{
+    font-size: 24px;
+  }
+
+  .inner_box{
+    width: 80%;
+    height: 30vh;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 20px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 60px;
+  }
+
+  .inner_box p  {
+    font-size: 40px;
+  }
+
+  .inner_box button {
+    width: 300px;
+    height: 80px;
+  }
+
+  .inner_box button a{
+    font-size: 30px;
+  }
+
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 75vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 50vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+  font-size: 30px;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.story-container{
+  width: 100%;
+}
+
+.sec-item{
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 35px;
+  margin-top: 4vh;
+}
+
+.sec-item strong,
+.sec-item span{
+  font-size: 60px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 35px;
+}
+
+.section-two h3{
+  font-size: 30px;
+}
+
+.section-two h1{
+  font-size: 60px;
+}
+
+.section-two p{
+  font-size: 24px;
+}
+
+.section-two button{
+  width: 300px;
+  height: 80px;
+}
+
+.section-two button a{
+  font-size: 30px;
+}
+
+.text h2{
+  font-size: 80px;
+}
+
+.footer{
+  width: 100%;
+  padding: 100px;
+  
+}
+
+.footer .footer-left{
+  width: 15%;
+  margin-left: 200px;
+}
+
+.footer .footer-center{
+  width: 25%;
+  margin-left: 100px;
+}
+.footer .footer-right{
+  width: 20%;
+}
+
+
+.footer .footer-company{
+  margin-top:  70px;
+}
+.footer-links a,
+.footer .footer-center p,
+.footer .gdpr span{
+  font-size: 18px;
+
+}
+.footer .footer-company, .copy{
+  font-size: 16px;
+}
+
+.download{
+  width: 300px;
+  height: 80px;
+}
+
+.downlaod a{
+  font-size: 18px;
+}
+
+.copy{
+  padding-top: 30px;
+}
+
+.banner-two-container{
+  height: 50vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+  font-size: 26;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 100%;
+}
+
+#story-headline{
+  font-size: 60px;
+}
+ .person-item{
+  width: 35vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 35vw;
+}
+
+.person-item img{
+  margin-left: 8vw;
+}
+
+
+.form-heading{
+  font-size: 50px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+
+.info-container{
+  width: 50vw;
+}
+
+.contact-form {
+  width: 50vw;
+  height: 80vh;
+}
+
+.info-item{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.info-item p{
+  font-size: 26px;
+}
+
+.form-control{
+  width: 25vw;
+  height: 70px;
+}
+
+.form-check-label, .form-check-label{
+font-size: 24px;
+}
+
+.btn-sub{
+  width: 200px;
+  height: 70px;
+}
+
+.btn-sub a{
+  font-weight: 26px;
+}
+
+.note h1{
+  font-size: 40px;
+}
+
+.note p{
+  font-size: 35px;
+}
+
+.note-btn{
+  width: 200px;
+  height: 70px;
+} 
+
+.note-btn a{
+  font-weight: 26px;
+}
+
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item{
+  width: 30vw;
+  height: 55vh;
+  font-size: 25px;
+}
+
+.inj-items{
+  width: 70vw;
+  font-size: 25px;
+}
+
+.inj-item p, .inj-items p{
+  padding: 40px;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+  height: 60vh;
+}
+.gdpr-text{
+margin: 5vw 7vh;
+}
+
+.gdpr-text h1{
+padding-top: 150px;
+
+width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 40px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  width: 300px;
+  height: 80px;
+  margin-top: 50px;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 2560px) 
+and (max-device-width: 4000px) {
+  
+  
+  nav ul li,
+  nav ul ul li{
+    margin-right: 40px;
+  }
+  
+  nav ul li a,
+  nav ul ul li a {
+    font-size: 20px;
+  }
+  
+
+  .inner_box{
+    width: 80%;
+  }
+
+  .inner_box h1, .inner_box p, .iner_box button{
+    width: 60vw;
+    margin: 50px 30px;
+  }
+
+  .inner_box strong, .inner_box span {
+    font-size: 45px;
+  }
+
+  .inner_box p  {
+    font-size: 30px;
+  }
+  main{
+    top: 2vh;
+    width: 90vw;
+    height: 80vh;
+    left: 0;
+    z-index: -1;
+  }
+
+.banner-container{
+  width: 100%;
+  height: 60vh;
+}
+
+.banner-item{
+  width: 30vw;
+  text-align: center;
+}
+
+.banner-item img{
+  width: 15%;
+}
+
+.banner-item p{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.story-container{
+  width: 100%;
+}
+
+.sec-item{
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.sec-item p{
+  font-size: 20px;
+  margin-top: 1vh;
+}
+
+.sec-item h1{
+  font-size: 25px;
+}
+
+.sec-item strong,
+.sec-item span{
+  font-size: 30px;
+}
+
+.sec-item img{
+  width: 100%;
+}
+
+.section-two{
+  margin-top: 5vh;
+}
+
+.section-two h2{
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  padding: 30px 30px;
+}
+.footer .footer img{
+  width: 18%;
+}
+.footer .footer-left{
+  width: 15%;
+  margin-left: 80px;
+}
+
+.footer .footer-center{
+  width: 30%;
+}
+.footer .footer-right{
+  width: 20%;
+}
+
+.footer img{
+  width: 100%;
+}
+
+.footer .footer-company{
+  margin-top:  70px;
+}
+
+.footer .footer-company, .copy{
+  font-size: 12px;
+}
+
+.copy{
+  padding-top: 25px;
+}
+
+.banner-two-container{
+  height: 80vh;
+}
+
+.banner-two-item{
+  width: 70vw;
+}
+
+.banner-two-item p{
+  margin-right: 10px;
+}
+
+#signature{
+  width: 35vw;
+  margin-left: 33vw;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.story-container{
+  width: 100%;
+}
+ .person-item{
+  width: 35vw;
+  margin-left: 3vw;
+}
+
+.person-item p{
+  width: 35vw;
+}
+
+.person-item img{
+  margin-left: 8vw;
+}
+
+
+.form-heading{
+  font-size: 40px;
+  width: 80vw;
+  margin: 60px auto;
+}
+
+
+.info-container{
+  width: 70vw;
+}
+
+.contact-form {
+  width: 70vw;
+}
+
+.info-item{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.form-control{
+  width: 40vw;
+  height: 50px;
+  
+}
+
+.note h1{
+  font-size: 30px;
+}
+
+.note p{
+  font-size: 25px;
+}
+
+.note-btn{
+  margin-top: 20px;
+}
+.box-container{
+  margin: 3vh auto;
+}
+
+.inj-container{
+  width: 100vw;
+}
+
+.inj-item{
+  width: 30vw;
+  height: 55vh;
+  font-size: 25px;
+}
+
+.inj-items{
+  width: 70vw;
+  font-size: 25px;
+}
+
+.inj-item p, .inj-items p{
+  padding: 40px;
+}
+
+.addition h2{
+font-size: 35px;
+}
+
+.box{
+  top: 0;
+}
+.gdpr-text{
+  margin: 100px;
+}
+
+.gdpr-text h1{
+padding-top: 70px;
+width: 80vw;
+font-size: 35px;
+}
+
+.gdpr-text p{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-text h3{
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.gdpr-btn {
+  margin-top: 30px;
 }
 }
