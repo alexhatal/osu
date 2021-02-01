@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="osuraz.cz">
+    <title>Občanské sdružení Úraz|posudky, odškodnění</title>
+    <meta name="description" content="Stal se Vám úraz? Zajistíme lekářske posudky a pomůžeme s maximálním odškodněním.">
+    <meta name="keywords" content="odškodnění úrazu, lekářske posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
+    <meta property="og:title" content="Zajištění lekářských posudků a maximální odškodnění">
+    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lekářske posudky a pomůžeme se získaním maximálního odškodnění.">
+      
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <nav>
+        <div class="logo"><a href="index.html"><img src="img/logo-uraz.svg" width="100%"></a></div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" class="toggleinput" id="btn">
+        <ul>
+            <li><a href="onas.html">O nás</a></li>
+            <li>
+               <label for="btn-1" class="show">Úrazy</label>
+               <a href="#">Úrazy</a>
+               <input type="checkbox" class="toggleinput" id="btn-1">
+                    <ul>
+                        <li><a href="pracovniuraz.html">Pracovní úraz</a></li>
+                        <li><a href="urazdite.html">Úraz ve škole</a></li>
+                        <li><a href="nehody.html">Dopravní nehody</a></li>
+                    </ul>
+            </li>
+            <li><a href="odskodneni.html">Odškodnění</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <!--NAVBAR-->
+
+<!--FORM START-->
+<h1 class="form-heading">Napište nám <br>a my se Vám ozveme zpátky</h1>
+
+<div class="contact-form">
+    <div class="info-container">
+        <div class="info-item"><img src="img/phone.svg" width="30%" alt="TELEFON"><br><br>TELEFON<p>+420 731 127 731</p></div>
+        <div class="info-item"><img src="img/email.svg" width="30%" alt="EMAIL"><a href="mailto:info@osuraz.cz"></a>><br><br>EMAIL<p>info@osuraz.cz</p></div>
+        <div class="info-item"><img src="img/web.svg" width="30%" alt="WEB"><br><br>WEB<p>www.osuraz.cz</p></div>
+      <section>
+        <form id="my-form" action="https://formspree.io/f/xaylkybz"method="POST">
+            <div class="form-group row">
+                <div class="col-10">
+                  <input class="form-control" type="text" value="Jméno" id="example-text-input" name="Jméno">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-10">
+                  <input class="form-control" type="text" value="Příjmení" id="example-search-input" name="Přijmení">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-10">
+                  <input class="form-control" type="email" value="jmeno@emial.com" id="example-email-input" name="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-10">
+                  <input class="form-control" type="tel" value="Telefon (+420 123 456 789)" id="example-tel-input" name="Telefon">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-10">
+                  <textarea class="form-control" type="text" value="Vaše zpráva" id="example-text-input" name="Zpráva"></textarea>
+                </div>
+              </div>
+              
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" name="form-check-label" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Souhlasím s odesláním osobních údajů
+                    </label>
+                    <div class="invalid-feedback">
+                      Potvrďte souhlas s odesláním osobních údajů
+                    </div>
+                  </div>
+                </div>
+                <button class="btn-sub" type="submit" name="submit">ODESLAT</button>
+              </form>
+              <div id="status"></div>
+            </section>       
+        </div>
+    </div>
+</div>
+
+<div class="note">
+<h1>Pro komplexnější informace neváhejte vyplnit náš dotazník</h1>
+<p>Klikněte na odkaz níže a vyplňte dotazník</p>
+<button class="note-btn"><a href="dotaznik.html">Dotazník</a></button>
+</div>
+
+<!--FOOTER START-->
+<footer class="footer">
+  <div class="footer-logo">
+      <a href="index.html"><img src="img/logo-white.svg"></a>
+  </div>
+  <div class="footer-left">
+      <div class="footer-links">
+          <a href="index.html">Domov</a>
+          <a href="onas.html">O Nás</a>
+          <a href="pracovniuraz.html">Pracovní úraz</a>
+          <a href="urazdite.html">Úraz dítěte</a>
+          <a href="nehody.html">Dopravní nehody</a>
+          <a href="odskodneni.html">Odškodnění</a>
+          <a href="kontakt.html">Kontakt</a>
+      </div>
+  </div>
+  <div class="footer-center">
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>BRNO</span>Lidická 2006/26, 602 00</p>
+      </div>
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>PRAHA</span>Panská 5, 110 00</p>
+      </div>
+      <div>
+          <i class="fa fa-phone"></i>
+          <p><span>TELEFON</span>+420 731 127 731</p>  
+      </div>
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><span>EMAIL</span><a href="mailto:info@osuraz.cz">info@osuraz.cz</a></p>
+      </div>
+  </div>    
+  <div class="footer-right">
+      <p class="gdpr">
+          <span>GDPR a Stanovy občanského sdružení ÚRAZ</span></p>
+          <button class="download"><a href="gdpr.html"> Stáhnout dokumenty</a></button>
+          <p class="footer-company">Provozovatel: Občanské sdružení ÚRAZ, <br> IČ: 22743201<br>Venhudova 10, 614 00 Brno</p>
+  </div>
+  <hr>
+  <p class="copy">© 2012 - 2021 Všechna práva vyhrazena. </p>
+</footer>
+<!--FOOTER END-->
+
+<!--SCRIPT START-->
+<script>$('.icon').click(function(){
+  $('span').toggleClass("cancel");
+});</script>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="js/form.js"></script>
+<!--SCRIPT END-->
+
+</body>
+</html>

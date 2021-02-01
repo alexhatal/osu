@@ -1,0 +1,451 @@
+body{
+    position: relative;
+    margin: 0;
+    background-image: linear-gradient(60deg, #f39200 50%, #f37800 50%);
+    font-size: 16px;
+    font-family:'Quicksand',Helvetica, Arial,sans-serif;
+    color: #2B005E;
+    line-height: 1.6;
+}
+
+
+.headline, .info-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+h2{
+  padding-bottom: 30px;
+}
+
+.head-item{
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+.contact-form{
+     width: fit-content;
+     height: fit-content;
+     background-image: linear-gradient(60deg, #f39200 50%, #f37800 50%);
+     margin: auto;
+     border: none;
+     border-radius: 50px;
+     top: -10vh;
+     box-shadow: -5px -5px 5px 5px #4c44634b;
+  }
+
+  .form{
+      margin: 80px auto;
+  }
+  .form-check{
+      margin-left: 20px;
+      margin-top: 10px;
+  }
+
+  .form-control{
+    background-color: #ececec;
+    width: 20vw;
+    height: 4vh;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #2B005E;
+    margin: 10px;
+  }
+
+  textarea{
+      border: none;
+      border-radius: 20px;
+      margin-left: 20px;
+  }
+
+  #text-fill{
+      color: #2B005E;
+      padding: 15px 15px;
+      border: none;
+      border-radius: 15px;
+      margin-top: 10px;
+      width: 200px;
+       
+  }
+
+  .btn{
+    background-color: #2B005E;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .btn:hover{
+  background-color: #f37800;
+}
+
+.back-btn{
+    background-color: #2B005E;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.back-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.back-btn:hover{
+    background-color: #f37800;
+}
+
+
+#status{
+    margin-left: 2vw;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+
+#status.success{
+color: rgb(10, 80, 185);
+animation: status 4s ease forwards;
+}
+
+#status.error{
+color: rgb(243, 30, 48);
+animation: status 4s ease forwards;
+}
+
+@keyframes status{
+0%{
+  opacity: 1;
+  pointer-events: all;
+}
+90%{
+  opacity: 1;
+  pointer-events: all;
+}
+100%{
+  opacity: 0;
+  pointer-events: none;
+}
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 479px)
+and (-webkit-min-device-pixel-ratio: 2){
+.head-item img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.head-item h2{
+    font-size: 24px;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+}
+.info-container{
+    margin: 30px auto;
+} 
+
+.contact-form{
+    width: 90vw;
+    margin-left: 0 auto;
+}
+.form{
+    width: 80vw;
+    min-width: 270px;
+    margin: 35px 20px 35px 40px;
+    font-size: 14px;
+}
+
+#text-fill{
+    border-radius: 25px;
+    width: 50vw
+}
+
+.form-control{
+    width: 60vw;
+}
+
+#message{
+    width: 70vw;
+}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 481px) 
+and (max-device-width: 567px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .head-item img{
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .head-item h2{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .contact-form{
+        width: 80vw;
+    }
+    
+    .form-control{
+        width: 55vw;
+    }
+
+    .form{
+        margin: 30px;
+    }
+    
+    #message{
+        width: 63vw;
+    }
+
+    .btn, .back-btn{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .info-container{
+        margin: 30px auto;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 569px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+.head-item img{
+    width: 40%;
+    margin-top: 5vh;
+}
+
+.head-item h2{
+    font-size: 24px;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.form{
+    width: 60vw;
+}
+
+.contact-form{
+    width: 80vw;
+    margin-bottom: 30px;
+}
+
+#text-fill{
+    border-radius: 50px;
+    width: 60vw;
+}
+
+.form-control{
+    width: 50vw;
+}
+
+#message{
+    width: 55vw;
+    height: 10vh;
+}
+
+.btn, .back-btn{
+    width: 150px;
+}
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 668px) 
+and (max-device-width: 768px)  { 
+    .head-item img{
+        width: 40%;
+        margin-top: 5vh;
+    }
+    
+    .head-item h2{
+        font-size: 20px;
+    }
+    
+    .form{
+        width: 60vw;
+    }
+    
+    .contact-form{
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+    
+    #text-fill{
+        border-radius: 50px;
+        width: 55vw;
+    }
+    
+    .form-control{
+        width: 50vw;
+    }
+    
+    #message{
+        width: 55vw;
+        height: 10vh;
+    }
+    
+    .btn, .back-btn{
+        width: 150px;
+    }
+    
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 769px) 
+and (max-device-width: 896px)  { 
+    .head-item img{
+        width: 35%;
+        margin-top: 5vh;
+    }
+    
+    .head-item h2{
+        font-size: 20px;
+    }
+    
+    .form{
+        width: 60vw;
+    }
+    
+    .contact-form{
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+    
+    #text-fill{
+        border-radius: 50px;
+        width: 55vw;
+    }
+    
+    .form-control{
+        width: 50vw;
+    }
+    
+    #message{
+        width: 55vw;
+        height: 10vh;
+    }
+    
+    .btn, .back-btn{
+        width: 170px;
+    }
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 897px) 
+and (max-device-width: 992px)  { 
+    .head-item img{
+        width: 35%;
+        margin-top: 5vh;
+    }
+    
+    .head-item h2{
+        font-size: 20px;
+    }
+    
+    .form{
+        width: 60vw;
+    }
+    
+    .contact-form{
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+    
+    #text-fill{
+        border-radius: 50px;
+        width: 55vw;
+    }
+    
+    .form-control{
+        width: 50vw;
+    }
+    
+    #message{
+        width: 55vw;
+        height: 10vh;
+    }
+    
+    .btn, .back-btn{
+        width: 170px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 993px) 
+and (max-device-width: 1200px)  { 
+    .head-item img{
+        width: 35%;
+        margin-top: 5vh;
+    }
+    
+    .head-item h2{
+        font-size: 20px;
+    }
+    
+    .form{
+        width: 60vw;
+    }
+    
+    .contact-form{
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+    
+    #text-fill{
+        border-radius: 50px;
+        width: 55vw;
+    }
+    
+    .form-control{
+        width: 50vw;
+    }
+    
+    #message{
+        width: 55vw;
+        height: 10vh;
+    }
+    
+    .btn, .back-btn{
+        width: 170px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1281px) 
+and (max-device-width: 1536px) {
+.contact-form{
+    width: 60vw;
+}
+}
