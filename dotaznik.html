@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="osuraz.cz">
     <title>Občanské sdružení Úraz|posudky, odškodnění</title>
-    <meta name="description" content="Stal se Vám úraz? Zajistíme lekářske posudky a pomůžeme s maximálním odškodněním.">
-    <meta name="keywords" content="odškodnění úrazu, lekářske posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
-    <meta property="og:title" content="Zajištění lekářských posudků a maximální odškodnění">
-    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lekářske posudky a pomůžeme se získaním maximálního odškodnění.">
+    <meta name="description" content="Stal se Vám úraz? Zajistíme lékářské posudky a pomůžeme s maximálním odškodněním.">
+    <meta name="keywords" content="odškodnění úrazu, lékářské posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
+    <meta property="og:title" content="Zajištění lékařských posudků a maximální odškodnění">
+    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lékářské posudky a pomůžeme se získaním maximálního odškodnění.">
       
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,17 +22,17 @@
 
 
     <!--FORM START-->
-<div class="headline"></div>
+<div class="form-headline"></div>
 <div class="head-item"><a class="logo" href="index.html"><img src="img/logo-white.svg" width="20%" alt="logo"></a></div>
 <div class="head-item"><h2>Stal se Vám úraz a potřebujete poradit?<br>Vyplňte krátky formulář a my se Vám ozveme</h2></div>
-<div class="contact-form">
+<div class="questionary">
     <div class="info-container">
       <form id="my-form" action="https://formspree.io/f/xaylkybz"method="POST"> 
       <div class="form">
             <div class="form-group row">
                 <div class="col-10">
                     <label for="date">Uveďte prosím datum:</label>
-                    <input type="date" id="text-fill" name="date">
+                    <input type="text" id="text-fill" name="date">
                 </div>
               </div><br>
               <div class="form-group row">
@@ -45,7 +45,7 @@
                     <input type="checkbox" id="q1" name="Byl/a jste s úrazem léčen/a?" value="jinak">
                     <label for="q1">Jinak</label><br>
                     <label for="q1">Pokud jinak, prosím uveďte jak:</label><br>
-                    <input type="text" id="text-fill" name="Byl/a jste s úrazem léčen/a?" value="způsob léčby">
+                    <input type="text" id="text-fill" name="Byl/a jste s úrazem léčen/a?">
                 </div>
               </div><br>
               <div class="form-group row">
@@ -59,7 +59,7 @@
                     <label for="q2"> páteře</label><br>
                     <input type="checkbox" id="q2" name="Došlo k poranění některé části těla?" value="jiné">
                     <label for="q2"> Jiné</label><br>
-                    <input type="text" id="text-fill" name="Došlo k poranění některé části těla?" value="prosím uveďte">
+                    <input type="text" id="text-fill" name="Došlo k poranění některé části těla?">
                 </div>
               </div><br>
               <div class="form-group row">
@@ -80,7 +80,7 @@
                     <label for="q4"> z odpovědnostní pojistky</label><br>
                     <input type="checkbox" id="q4" name="Máte nárok na odškodnění následků úrazu?" value="jiné">
                     <label for="q4">jiným způsobem</label><br>
-                    <input type="text" id="text-fill" name="Máte nárok na odškodnění následků úrazu?" value="prosím uveďte">
+                    <input type="text" id="text-fill" name="Máte nárok na odškodnění následků úrazu?">
                 </div>
               </div><br>
               <div class="form-group row">
@@ -104,11 +104,11 @@
               <div class="form-group row">
                 <div class="col-10">
                     <label for="q7">O jaký úraz se jedná?</label><br>
-                    <input type="radio" id="q7" name="O jaký úraz se jedná?" value="ano">
+                    <input type="radio" id="q7" name="O jaký úraz se jedná?">
                     <label for="q7">pracovní úraz</label><br>
-                    <input type="radio" id="q7" name="O jaký úraz se jedná?" value="ne">
+                    <input type="radio" id="q7" name="O jaký úraz se jedná?">
                     <label for="q7">úraz žáka ve škole</label><br>
-                    <input type="radio" id="q7" name="O jaký úraz se jedná?" value="ne">
+                    <input type="radio" id="q7" name="O jaký úraz se jedná?">
                     <label for="q7">Žádný z uvedených</label><br><br>
                 </div>
                 </div>  
@@ -117,7 +117,9 @@
                         <h2>Osobní údaje</h2>
                     </div>
                 </div>
-              
+
+
+              <div class="personal-info">
                 <div class="form-group row">
                     <div class="col-10">
                         <label for="q8">Věk</label>
@@ -128,53 +130,53 @@
                         <input type="checkbox" id="vek" name="Věk" value="45 a vice">
                         <label for="vek"> 45 a více</label>
                     </div>
-                </div>
+                </div><br>
                         <div class="form-group row">
                             <div class="col-10">
-                              <input class="form-control" name="Jméno" type="text" value="Jméno" id="name">
+                              <label for="Jméno">Jméno</label><br>
+                              <input class="form-control" name="Jméno" type="text" id="name" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-10">
-                              <input class="form-control" name="Příjmení" type="text" value="Příjmení" id="surname">
+                              <label for="Přijmení">Přijmení</label><br>
+                              <input class="form-control" name="Příjmení" type="text" id="surname" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-10">
-                              <input class="form-control" name="Adresa" type="text" value="Adresa" id="address">
+                              <label for="Adresa">Adresa</label><br>
+                              <input class="form-control" name="Adresa" type="text" id="address" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-10">
-                              <input class="form-control" name="Email" type="email" value="jmeno@emial.com" id="email">
+                              <label for="Email">Email</label><br>
+                              <input class="form-control" name="Email" type="email" id="email" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-10">
-                              <input class="form-control" name="Telefon" type="tel" value="Telefon (+420 123 456 789)" id="tel">
+                              <label for="Telefon">Telefon</label><br>
+                              <input class="form-control" name="Telefon" type="tel" id="tel" required>
                             </div>
                           </div>
                           <div class="form-group row">
                             <div class="col-10">
-                                <label for="message">Vaše zpráva</label><br>  
+                                <label for="Zpráva">Váš dotaz</label><br>  
                               <textarea id="message" name="Zpráva" rows="4" cols="50"></textarea> 
                               
                             </div>
                           </div>
+                        </div>
                     
                 
                 <div class="form-group">
                 <div class="col-10">
                   <div class="form-check">
-                    <input class="form-check-input" name="check" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Souhlasím s odesláním osobních údajů
-                    </label>
-                    <div class="invalid-feedback">
-                      Potvrďte souhlas s odesláním osobních údajů
-                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfyV0waAAAAAKImjU3kNPu_p9vtfsJW4PdRrxTn"></div>
                     <button class="btn" name="btn" type="submit">ODESLAT</button>
-                    <button class="back-btn" name="back-btn"><a href="index.html"> << Zpět na stránky</a></button>
+                    <button class="back-btn" name="back-btn"><a href="index.html">Zpět na stránky</a></button>
                   </div>
                 </div>
                 </div>
@@ -186,6 +188,11 @@
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="js/form.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
 <!--SCRIPT END-->
 
 </body>

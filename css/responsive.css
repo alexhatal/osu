@@ -1047,3 +1047,15 @@ p.headline{
 
 }
 
+
+/* BIG FORM */
+
+@media only screen 
+and (max-device-width:1367px)
+and (max-device-width:1653px){
+.questionary{
+  width: 60vw;
+
+}
+}
+

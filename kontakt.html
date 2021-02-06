@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="osuraz.cz">
     <title>Občanské sdružení Úraz|posudky, odškodnění</title>
-    <meta name="description" content="Stal se Vám úraz? Zajistíme lekářske posudky a pomůžeme s maximálním odškodněním.">
-    <meta name="keywords" content="odškodnění úrazu, lekářske posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
-    <meta property="og:title" content="Zajištění lekářských posudků a maximální odškodnění">
-    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lekářske posudky a pomůžeme se získaním maximálního odškodnění.">
+    <meta name="description" content="Stal se Vám úraz? Zajistíme lékářské posudky a pomůžeme s maximálním odškodněním.">
+    <meta name="keywords" content="odškodnění úrazu, lékářské posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
+    <meta property="og:title" content="Zajištění lékařských posudků a maximální odškodnění">
+    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lékářské posudky a pomůžeme se získaním maximálního odškodnění.">
       
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,28 +22,28 @@
 
     <!--NAVBAR-->
     <nav>
-        <div class="logo"><a href="index.html"><img src="img/logo-uraz.svg" width="100%"></a></div>
-        <label for="btn" class="icon">
-            <span class="fa fa-bars"></span>
-        </label>
-        <input type="checkbox" class="toggleinput" id="btn">
-        <ul>
-            <li><a href="onas.html">O nás</a></li>
-            <li>
-               <label for="btn-1" class="show">Úrazy</label>
-               <a href="#">Úrazy</a>
-               <input type="checkbox" class="toggleinput" id="btn-1">
-                    <ul>
-                        <li><a href="pracovniuraz.html">Pracovní úraz</a></li>
-                        <li><a href="urazdite.html">Úraz ve škole</a></li>
-                        <li><a href="nehody.html">Dopravní nehody</a></li>
-                    </ul>
-            </li>
-            <li><a href="odskodneni.html">Odškodnění</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
-    <!--NAVBAR-->
+      <div class="logo"><a href="index.html"><img src="img/logo-uraz.svg" width="100%"></a></div>
+      <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" class="toggleinput" id="btn">
+      <ul>
+          <li><a href="onas.html">O nás</a></li>
+          <li>
+             <label for="btn-1" class="show">Typy úrazů</label>
+             <a href="#">Typy úrazů</a>
+             <input type="checkbox" class="toggleinput" id="btn-1">
+                  <ul>
+                      <li><a href="pracovniuraz.html">Pracovní úraz</a></li>
+                      <li><a href="urazdite.html">Úraz ve škole</a></li>
+                      <li><a href="nehody.html">Dopravní nehody</a></li>
+                      <li><a href="odskodneni.html">Úrazové pojistky</a></li>
+                  </ul>
+          </li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+  </nav>
+  <!--NAVBAR-->
 
 <!--FORM START-->
 <h1 class="form-heading">Napište nám <br>a my se Vám ozveme zpátky</h1>
@@ -57,41 +57,36 @@
         <form id="my-form" action="https://formspree.io/f/xaylkybz"method="POST">
             <div class="form-group row">
                 <div class="col-10">
-                  <input class="form-control" type="text" value="Jméno" id="example-text-input" name="Jméno">
+                  <label for="Jméno">Jméno</label>
+                  <input class="form-control" type="text" id="example-text-input" name="Jméno" required>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-10">
-                  <input class="form-control" type="text" value="Příjmení" id="example-search-input" name="Přijmení">
+                  <label for="Přijmení">Přijmení</label>
+                  <input class="form-control" type="text" id="example-search-input" name="Přijmení" required>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-10">
-                  <input class="form-control" type="email" value="jmeno@emial.com" id="example-email-input" name="Email">
+                  <label for="Email">Email</label>
+                  <input class="form-control" type="email" id="example-email-input" name="Email" required>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-10">
-                  <input class="form-control" type="tel" value="Telefon (+420 123 456 789)" id="example-tel-input" name="Telefon">
+                  <label for="Telefon">Telefon</label>
+                  <input class="form-control" type="tel" id="example-tel-input" name="Telefon" required>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-10">
-                  <textarea class="form-control" type="text" value="Vaše zpráva" id="example-text-input" name="Zpráva">Vaše zpráva</textarea>
+                  <label for="Zpráva">Váš dotaz</label>
+                  <textarea class="form-control" type="text" id="example-text-input" name="Zpráva"></textarea>
                 </div>
               </div>
               
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" name="form-check-label" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck" >
-                      Souhlasím s odesláním osobních údajů
-                    </label>
-                    <div class="invalid-feedback">
-                      Potvrďte souhlas s odesláním osobních údajů
-                    </div>
-                  </div>
-                </div>
+                <div class="g-recaptcha" data-sitekey="6LfyV0waAAAAAKImjU3kNPu_p9vtfsJW4PdRrxTn"></div>
                 <button class="btn-sub" type="submit" name="submit">ODESLAT</button>
               </form>
               <div id="status"></div>
@@ -156,9 +151,15 @@
   $('span').toggleClass("cancel");
 });</script>
 
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
+
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="js/form.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!--SCRIPT END-->
 
 </body>

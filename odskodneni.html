@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="osuraz.cz">
     <title>Občanské sdružení Úraz|posudky, odškodnění</title>
-    <meta name="description" content="Stal se Vám úraz? Zajistíme lekářske posudky a pomůžeme s maximálním odškodněním.">
-    <meta name="keywords" content="odškodnění úrazu, lekářske posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
-    <meta property="og:title" content="Zajištění lekářských posudků a maximální odškodnění">
-    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lekářske posudky a pomůžeme se získaním maximálního odškodnění.">
+    <meta name="description" content="Stal se Vám úraz? Zajistíme lékářské posudky a pomůžeme s maximálním odškodněním.">
+    <meta name="keywords" content="odškodnění úrazu, lékářské posudky, pojistné plnění, pracovní úraz, úraz ve škole, úraz při autonehodě, poradenství, pojistné události">
+    <meta property="og:title" content="Zajištění lékařských posudků a maximální odškodnění">
+    <meta property="og:description" content="Stal se Vám úraz a potřebujete poradit? Zajistíme odborné lékářské posudky a pomůžeme se získaním maximálního odškodnění.">
       
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,16 +30,16 @@
         <ul>
             <li><a href="onas.html">O nás</a></li>
             <li>
-               <label for="btn-1" class="show">Úrazy</label>
-               <a href="#">Úrazy</a>
+               <label for="btn-1" class="show">Typy úrazů</label>
+               <a href="#">Typy úrazů</a>
                <input type="checkbox" class="toggleinput" id="btn-1">
                     <ul>
                         <li><a href="pracovniuraz.html">Pracovní úraz</a></li>
                         <li><a href="urazdite.html">Úraz ve škole</a></li>
                         <li><a href="nehody.html">Dopravní nehody</a></li>
+                        <li><a href="odskodneni.html">Úrazové pojistky</a></li>
                     </ul>
             </li>
-            <li><a href="odskodneni.html">Odškodnění</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
@@ -65,7 +65,7 @@
                 <br><br>Na uplatnění nároku je stanovena obecná čtyřletá promlčecí lhůta, která začíná běžet dnem, kdy k úrazu došlo, ale pozor, v pojistných podmínkách můžou být pojišťovnou stanoveny nejrůznější podmínky, které tuto dobu výrazně zkracují.
                 <br><br>Zdravotní posudek odškodnění vyplní lékař, který je seznámen nebo se podobně seznámí se zdravotním stavem zraněného, a to nejlépe podle oceňovacích tabulek, které se vztahují k danému druhu pojištění. Na základě těchto oceňovacích tabulek se vypočítá procentuální plnění ze sjednané pojistné částky, nebo denní plnění doby léčení a záleží na zkušenostech lékaře a na jeho důkladném seznámení s těmito tabulkami, jak kvalitně vyplní posudek zdravotního odškodnění. Z praxe víme, že na těchto posudcích se dá nejvíce ztratit či naopak získat.
                 <br><br>Obrátíte-li se na nás, tak Vám v jakékoli fázi Vaší komunikace s pojišťovnou poskytneme pomocnou ruku. Vyplníme veškeré potřebné formuláře a žádosti a naši spolupracující lékaři napíší lékařské či znalecké posudky. Pokud Vám pojišťovna již něco zaplatila, zkontrolujeme, zda pojistné plnění odpovídá tomu, co zaplatit měli. Čím dříve s námi začnete spolupracovat tím lépe.
-                </p>
+                <br><span class="more"><a href="index.html#scrolldiv">Chci řešit</a></span></p>
         </div>
     </div>
     </section>
@@ -126,6 +126,15 @@
 <script>$('.icon').click(function(){
     $('span').toggleClass("cancel");
   });</script>
+
+<script>$(document).ready(function() {
+    var offsetSize = $("div[name='head-bg']").innerHeight();
+    console.log(location.hash,$(location.hash),offsetSize)
+    if ($(location.hash).length)
+        $("html, body").animate({
+            scrollTop: $(location.hash).offset().top - offsetSize
+        }, 500);
+}); </script>
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
