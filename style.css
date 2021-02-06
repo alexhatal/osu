@@ -698,18 +698,17 @@ em{
 .form-heading{
   font-size: 45px;
   text-align: center;
-  padding: 50px 0;
+  padding: 200px 0 50px 0;
   }
   
   .contact-form{
   min-width: 300px;
-   width: 30vw;
+   width: 40vw;
    background-image: linear-gradient(60deg, #f39200 50%, #f37800 50%);
    margin: auto;
    border: none;
    border-radius: 50px;
    box-shadow: 5px 5px 15px 5px #4c44636c;
-   
   }
   
   .info-container {
@@ -868,7 +867,7 @@ em{
 .gdpr-text h1{
   text-align: start;
   font-size: 45px;
-  padding: 100px 0 50px 0;
+  padding: 230px 0 20px 0;
 }
   
 .gdpr-text p{

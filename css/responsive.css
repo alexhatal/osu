@@ -98,7 +98,8 @@ and (max-device-width: 479px) {
 
   main{
   width: 95%;
-  height: 450px;
+  height: 350px;
+  top: 100px;
 }
 
   .inner_box{
@@ -325,7 +326,8 @@ and (max-device-width: 568px) {
 
   main{
   width: 95%;
-  height: 350px;
+  height: 400px;
+  top: 100px;
 }
 
   .inner_box{
@@ -362,6 +364,10 @@ and (max-device-width: 568px) {
   .headline h1{
     margin: 20px 0;
   }
+
+.box-container{
+  top: 50px;
+}
 
 .banner-item{
   width: 100%;
@@ -414,6 +420,10 @@ margin-left: 75px;
   font-size: 30px;
 }
 
+
+.sec-item button{
+  margin-left: 0;
+}
 .section-two{
   margin-top: 50px;
 }
@@ -510,12 +520,14 @@ and (min-device-width: 569px)
 and (max-device-width: 768px) { 
 
   main{
-  width: 95%;
-  height: 350px;
+  width: 90%;
+  height: 460px;
+  top: 100px;
 }
 
   .inner_box{
-    width: 90%;
+    width: 80%;
+    margin-top: 20px;
     padding: 10px;
   }
 
@@ -543,7 +555,7 @@ and (max-device-width: 768px) {
 
 .banner-item{
   width: 100%;
-  margin: 50px 0;
+  margin-top: 80px;
 }
 
 .banner-item p{
@@ -585,6 +597,10 @@ and (max-device-width: 768px) {
 .sec-item strong,
 .sec-item span{
   font-size: 30px;
+}
+
+.sec-item button{
+  margin-left: 0;
 }
 
 .section-two{
@@ -712,7 +728,13 @@ and (max-device-width: 991px) {
   .sec-item p{
     margin-top: 0px;
 
-  }.section-two h2 {
+  }
+
+  .sec-item button{
+    margin-left: 0;
+  }
+
+.section-two h2 {
     font-size: 28px;
 }
 
@@ -855,8 +877,13 @@ main{
 
   .sec-item p{
     margin-top: 0px;
+  }
 
-  }.section-two h2 {
+  .sec-item button{
+    margin-left: 0;
+  } 
+
+.section-two h2 {
     font-size: 28px;
 }
 
@@ -990,7 +1017,9 @@ and (max-device-width: 1653px) {
 p.headline{
   padding: 20px 0;
 }
-
+main{
+  width: 80%;
+}
 .section-two h3{
   padding: 70px 0 10px 0;
 }
