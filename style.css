@@ -309,6 +309,10 @@ p.headline {
   color: #ffffff;
 }
 
+#myBtn:hover{
+  background-color:#2B005E;
+}
+
 .dot:hover{
   background-color:#2B005E;
 }
