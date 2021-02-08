@@ -571,6 +571,10 @@ em{
     align-items: center;
 }
 
+.person-text-item{
+  text-align: left;
+}
+
 .person-item h2{
   font-size: 30px;
 }
