@@ -1009,6 +1009,10 @@ main{
 .note h1{
   padding: 0;
 }
+#call{
+  visibility: hidden;
+  opacity: 0;
+}
 }
 
 @media only screen 
@@ -1030,6 +1034,11 @@ main{
 
 #signature {
   margin-left: 31vw;
+}
+
+#call{
+  visibility: hidden;
+  opacity: 0;
 }
 }
 
@@ -1080,11 +1089,19 @@ main{
 /* BIG FORM */
 
 @media only screen 
-and (max-device-width:1367px)
+and (min-device-width:1367px)
 and (max-device-width:1653px){
 .questionary{
   width: 60vw;
-
 }
 }
 
+@media only screen 
+and (min-device-width:1654px)
+and (max-device-width:4000px){
+
+  #call{
+    visibility: hidden;
+    opacity: 0;
+  }
+}
