@@ -110,7 +110,7 @@ and (max-device-width: 479px) {
       width: 90%;
       padding: 5px 15px;
       top: 200px;
-      background:rgba(255,255,255,0.9)
+      background:rgba(207, 199, 236, 0.9)
     }
   
   .inner_box p{
@@ -412,13 +412,14 @@ and (max-device-width: 568px) {
 
     main{
     width: 90%;
-    height: 300px;
+    height: 360px;
   }
   
     .inner_box{
-      width: 85%;
-      padding: 5px 15px;
-      top: 150px;
+      width: 90%;
+      padding: 20px 15px;
+      top: 240px;
+      background:rgba(207, 199, 236, 0.9)
     }
   
   .inner_box p{
@@ -684,15 +685,20 @@ and (max-device-width: 568px) {
 @media only screen 
 and (min-device-width: 569px) 
 and (max-device-width: 768px) { 
-  
+  .logo img{
+    width: 50%;
+  }
+
     main{
     width: 95%;
-    height: 430px;
+    height: 490px;
   }
   
     .inner_box{
-      width: 80%;
+      width: 90%;
       padding: 25px;
+      top: 330px;
+      background:rgba(207, 199, 236, 0.9)
     }
   
   .inner_box p{
