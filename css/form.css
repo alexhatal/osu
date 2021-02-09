@@ -52,7 +52,7 @@ font-size: 35px;
   }
 
   .form-control{
-    background-color: #ececec;
+    background-color: #ffffff;
     width: 25vw;
     height: 4vh;
     padding: 5px 25px;
@@ -75,6 +75,7 @@ font-size: 35px;
       border-radius: 50px;
       margin-top: 10px;
       width: 20vw;
+      height: 50px;
        
   }
 
@@ -145,6 +146,213 @@ animation: status 4s ease forwards;
 100%{
   opacity: 0;
   pointer-events: none;
+}
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 479px){
+  .logo img{
+    margin-top: 20px;
+    width: 30%;
+  }
+  h2{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+  }
+  
+    .questionary{
+      width: 90%;
+    }
+  
+  label{
+    font-size: 18px;
+  }
+  
+  .form{
+    width: 80%;
+  }
+  
+  textarea{
+    width: 80%;s
+  }
+  
+  #text-fill{
+    width: 70vw;
+  }
+  
+  .form-control{
+    width: 70vw;
+  }
+  
+  }
+
+@media only screen 
+and (min-device-width: 480px) 
+and (max-device-width: 568px){
+
+  .logo img{
+    margin-top: 20px;
+    width: 30%;
+  }
+  h2{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+  }
+  
+    .questionary{
+      width: 90%;
+    }
+  
+  label{
+    font-size: 18px;
+  }
+  
+  .form{
+  margin-left: 40px;
+  }
+  
+  textarea{
+    width: 80%;s
+  }
+  
+  #text-fill{
+    width: 70vw;
+  }
+  
+  .form-control{
+    width: 70vw;
+  }
+  
+  }
+
+@media only screen 
+and (min-device-width: 569px) 
+and (max-device-width: 768px){
+
+h2{
+  width: 80%;
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+  .questionary{
+    width: 75%;
+  }
+
+label{
+  font-size: 20px;
+}
+
+.form{
+margin-left: 100px;
+}
+
+textarea{
+  width: 70%;
+}
+
+#text-fill{
+  width: 30vw;
+}
+
+.form-control{
+  width: 45vw;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width: 769px) 
+and (max-device-width: 991px){
+
+h2{
+  width: 80%;
+  margin: 20px auto;
+  font-size: 30px;
+}
+
+  .questionary{
+    width: 70%;
+  }
+
+label{
+  font-size: 20px;
+}
+
+.form{
+margin-left: 100px;
+}
+
+textarea{
+  width: 70%;
+}
+
+#text-fill{
+  width: 30vw;
+}
+
+.form-control{
+  width: 40vw;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1279px){
+  .questionary{
+    width: 70%;
+  }
+
+label{
+  font-size: 20px;
+}
+
+.form{
+margin-left: 100px;
+}
+
+textarea{
+  width: 70%;
+}
+
+#text-fill{
+  width: 30vw;
+}
+
+.form-control{
+  width: 40vw;
+}
+
+}
+
+@media only screen 
+and (min-device-width: 1280px) 
+and (max-device-width: 1366px) { 
+  .questionary{
+    width: 55%;
+  }
+
+  .form-control{
+    width: 35vw;
+  }
+
+  textarea{
+    width: 80%;
+  }
+}
+
+
+@media only screen 
+and (min-device-width:1367px)
+and (max-device-width:1653px){
+.questionary{
+  width: 60vw;
 }
 }
 
