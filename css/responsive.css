@@ -114,6 +114,10 @@ and (max-device-width: 479px) {
   .inner_box p{
     font-size: 16px;
   }
+
+  .sec-item button a{
+    font-size: 14px;
+  }
   
     .inner_box strong,
     .inner_box span{
