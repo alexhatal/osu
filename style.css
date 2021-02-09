@@ -26,6 +26,10 @@ nav{
   z-index: 2;
   width: 100%;
   position: fixed;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
 }
 
 nav:after{
@@ -651,7 +655,7 @@ em{
   .inj-item p{
     color: #ffffff;
     font-weight: normal;
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     padding: 50px;
 
@@ -674,7 +678,7 @@ em{
   .inj-items p{
     color: #ffffff;
     font-weight: normal;
-    text-align: justify;
+    text-align: left;
     width: 80%;
     padding-top: 30px;
     margin: 0 auto;

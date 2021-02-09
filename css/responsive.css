@@ -1017,6 +1017,38 @@ main{
 
 @media only screen 
 and (min-device-width: 1367px) 
+and (max-device-width: 1499px) { 
+
+main{
+  width: 80%;
+  height: 730px;
+}
+.section-two h3{
+  padding: 70px 0 10px 0;
+}
+
+#box-gdpr{
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.footer .footer-left{
+  margin-left: 80px;
+}
+
+#signature {
+  margin-left: 31vw;
+}
+
+#call{
+  visibility: hidden;
+  opacity: 0;
+}
+}
+
+
+@media only screen 
+and (min-device-width: 1500px) 
 and (max-device-width: 1653px) { 
 p.headline{
   padding: 20px 0;
@@ -1024,8 +1056,14 @@ p.headline{
 main{
   width: 80%;
 }
+
 .section-two h3{
   padding: 70px 0 10px 0;
+}
+
+#box-gdpr{
+  margin-top: 0px;
+  padding-top: 30px;
 }
 
 .footer .footer-left{
