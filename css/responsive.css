@@ -101,15 +101,15 @@ and (max-device-width: 479px) {
   }
 
     main{
-    display: none;
     width: 90%;
-    height: 290px;
+    height: 320px;
+
   }
   
     .inner_box{
-      width: 85%;
+      width: 90%;
       padding: 5px 15px;
-      top: 150px;
+      top: 200px;
       background:rgba(255,255,255,0.9)
     }
   
