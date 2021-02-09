@@ -101,6 +101,7 @@ and (max-device-width: 479px) {
   }
 
     main{
+    display: none;
     width: 90%;
     height: 290px;
   }
@@ -109,6 +110,7 @@ and (max-device-width: 479px) {
       width: 85%;
       padding: 5px 15px;
       top: 150px;
+      background:rgba(255,255,255,0.9)
     }
   
   .inner_box p{
