@@ -5,7 +5,7 @@
     font-family:'Quicksand',Helvetica, Arial,sans-serif;
     color: #ffffff;
     line-height: 1.6;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
   }
 
@@ -66,6 +66,9 @@ font-size: 35px;
       border: none;
       border-radius: 20px;
       margin-left: 20px;
+      height: 150px;
+      width: 70%;
+      color: #2B005E;
   }
 
   #text-fill{
@@ -154,6 +157,9 @@ animation: status 4s ease forwards;
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 479px){
+  *{
+    font-size: 16px;
+  }
   .logo img{
     margin-top: 20px;
     width: 30%;
@@ -193,7 +199,9 @@ and (max-device-width: 479px){
 @media only screen 
 and (min-device-width: 480px) 
 and (max-device-width: 568px){
-
+  *{
+    font-size: 16px;
+  }
   .logo img{
     margin-top: 20px;
     width: 30%;
