@@ -828,6 +828,7 @@ em{
     border-radius: 50px;
     margin-left: 1vw;
     color: #f37800;
+    cursor: pointer;
     }
     
     
@@ -837,13 +838,13 @@ em{
     
       #status{
         margin-left: 2vw;
-        padding-top: 10px;
+        padding-top: 5px;
         font-weight: bolder;
         font-size: 16px;
       }
 
   #status.success{
-    color: rgb(10, 80, 185);
+    color: rgb(255, 255, 255);
     animation: status 4s ease forwards;
   }
 
