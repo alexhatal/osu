@@ -772,6 +772,10 @@ em{
   font-size: 15px;
   }
 
+  textarea{
+    min-height: 80px;
+  }
+
   label.form-check-label {
     font-size: 15px;
 }
