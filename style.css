@@ -96,7 +96,7 @@ nav ul ul li{
   width: 200px;
   float: none;
   display: list-item;
-  background-color: rgb(243, 122, 0, 0.85);
+  background-color: rgb(243, 122, 0, 0.85) !important;
   border-bottom: 0.5px solid rgb(42, 0, 94, 0.5);
   border-radius: 0px 0 20px 20px;
 }
@@ -248,8 +248,6 @@ p.headline {
   height: 50px;
   background:#f37800;
   text-transform:uppercase;
-  font-weight:bold;
-  font-size:16px;
   border:none;
   border-radius: 50px;
   padding:10px 50px;
@@ -260,6 +258,7 @@ p.headline {
 
 .sec-item button a{
   color: #ffffff;
+  font-size: 14px;
 }
 
 .sec-item button:hover{
@@ -717,6 +716,7 @@ em{
   .contact-form{
   min-width: 300px;
    width: 40vw;
+   height: fit-content;
    background-image: linear-gradient(60deg, #f39200 50%, #f37800 50%);
    margin: auto;
    border: none;
@@ -843,18 +843,32 @@ em{
       #status{
         margin-left: 2vw;
         padding-top: 5px;
-        font-weight: bolder;
+        font-weight: normal;
         font-size: 16px;
       }
 
   #status.success{
     color: rgb(255, 255, 255);
-    animation: status 4s ease forwards;
+    animation: status 8s ease forwards;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -10px;
   }
 
   #status.error{
     color: rgb(243, 30, 48);
-    animation: status 4s ease forwards;
+    animation: status 8s ease forwards;
+    font-size: 20px;
+    border: 1px solid rgb(243, 30, 48);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -10px;
   }
   
   @keyframes status{
@@ -870,10 +884,6 @@ em{
       opacity: 0;
       pointer-events: none;
     }
-  }
-
-  .g-recaptcha-response{
-    margin: 50px;
   }
 
   /* GDPR */

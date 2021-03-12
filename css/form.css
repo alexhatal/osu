@@ -125,19 +125,33 @@ font-size: 35px;
 #status{
     margin-left: 2vw;
     padding-top: 5px;
-    font-weight: bolder;
+    font-weight: normal;
     font-size: 16px;
   }
 
-#status.success{
-color: rgb(255, 255, 255);
-animation: status 4s ease forwards;
-}
+  #status.success{
+    color: rgb(255, 255, 255);
+    animation: status 8s ease forwards;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -10px;
+  }
 
-#status.error{
-color: rgb(243, 30, 48);
-animation: status 4s ease forwards;
-}
+  #status.error{
+    color: rgb(243, 30, 48);
+    animation: status 8s ease forwards;
+    font-size: 20px;
+    border: 1px solid rgb(243, 30, 48);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -10px;
+  }
 
 @keyframes status{
 0%{
